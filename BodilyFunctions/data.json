@@ -1,0 +1,194 @@
+{
+  "plugin.dependencies": "",
+  "plugin.load-before": "",
+  "plugin.version": "1",
+  "debug-build-mode": false,
+  "open-tab": 0,
+  "plugin-components": [
+    {
+      "children": [{
+        "=": "org.bukkit.World#dropItemNaturally(org.bukkit.Location,org.bukkit.inventory.ItemStack)",
+        "parameters": [
+          {
+            "=": "org.bukkit.entity.Entity#getWorld()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "org.bukkit.entity.Entity#getLocation()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "expr-new-named-item",
+            "parameters": [
+              {"=": "org.bukkit.Material#BROWN_DYE"},
+              {
+                "=": "expr-string",
+                "parameters": ["Shit"]
+              }
+            ]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "shit",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.World#dropItemNaturally(org.bukkit.Location,org.bukkit.inventory.ItemStack)",
+        "parameters": [
+          {
+            "=": "org.bukkit.entity.Entity#getWorld()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "org.bukkit.entity.Entity#getLocation()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "expr-new-named-item",
+            "parameters": [
+              {"=": "org.bukkit.Material#YELLOW_DYE"},
+              {
+                "=": "expr-string",
+                "parameters": ["Piss"]
+              }
+            ]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "piss",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.World#dropItemNaturally(org.bukkit.Location,org.bukkit.inventory.ItemStack)",
+        "parameters": [
+          {
+            "=": "org.bukkit.entity.Entity#getWorld()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "org.bukkit.entity.Entity#getLocation()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "expr-new-named-item",
+            "parameters": [
+              {"=": "org.bukkit.Material#WHITE_DYE"},
+              {
+                "=": "expr-string",
+                "parameters": ["Cum"]
+              }
+            ]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "cum",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.World#dropItemNaturally(org.bukkit.Location,org.bukkit.inventory.ItemStack)",
+        "parameters": [
+          {
+            "=": "org.bukkit.entity.Entity#getWorld()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "org.bukkit.entity.Entity#getLocation()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "expr-new-named-item",
+            "parameters": [
+              {"=": "org.bukkit.Material#RED_DYE"},
+              {
+                "=": "expr-string",
+                "parameters": ["Period Blood"]
+              }
+            ]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "period",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.World#dropItemNaturally(org.bukkit.Location,org.bukkit.inventory.ItemStack)",
+        "parameters": [
+          {
+            "=": "org.bukkit.entity.Entity#getWorld()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "org.bukkit.entity.Entity#getLocation()",
+            "parameters": [{"=": "expr-command-sender"}]
+          },
+          {
+            "=": "expr-new-named-item",
+            "parameters": [
+              {"=": "org.bukkit.Material#LIME_DYE"},
+              {
+                "=": "expr-string",
+                "parameters": ["Vomit"]
+              }
+            ]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "vomit",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "plugin.soft-dependencies": "",
+  "plugin.name": "BodilyFunctions",
+  "plugin.prefix": "bf",
+  "current-plugin-component": 0,
+  "plugin.author": "KevlarProps",
+  "plugin.description": "A command for bodily functions.",
+  "plugin.permissions": "",
+  "open-plugin-components": [
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "plugin.website": ""
+}
